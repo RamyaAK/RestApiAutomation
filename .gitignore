@@ -1,0 +1,13 @@
+.idea/
+*.iml
+*.class
+.DS_Store
+target/
+build
+.gradle/
+gradle/
+dump.rdb
+generated-test-sources/
+out/
+classes/
+.m2/
