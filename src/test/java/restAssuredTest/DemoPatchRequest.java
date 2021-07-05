@@ -15,7 +15,7 @@ public class DemoPatchRequest {
 
     @BeforeTest
     public void prepareTestData() {
-        map.put("name", RestUtils.updatedName());
+        map.put("name", RestUtils.getUpdatedName());
 
         RestAssured.baseURI = "https://reqres.in";
         RestAssured.basePath = "/api/users/2";

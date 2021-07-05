@@ -14,12 +14,12 @@ public class RestUtils {
         return("leader"+generatedString);
     }
 
-    public static String updatedName(){
+    public static String getUpdatedName(){
         String generatedString = RandomStringUtils.randomAlphabetic(1);
         return("John"+generatedString);
     }
 
-    public static String updatedJob(){
+    public static String getUpdatedJob(){
         String generatedString = RandomStringUtils.randomAlphabetic(1);
         return("zion resident"+generatedString);
     }

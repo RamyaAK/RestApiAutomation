@@ -15,8 +15,8 @@ public class DemoPUTRequest {
 
     @BeforeTest
     public void prepareTestData() {
-        map.put("name", RestUtils.updatedName());
-        map.put("job", RestUtils.updatedJob());
+        map.put("name", RestUtils.getUpdatedName());
+        map.put("job", RestUtils.getUpdatedJob());
 
         RestAssured.baseURI = "https://reqres.in";
         RestAssured.basePath = "/api/users/2";
