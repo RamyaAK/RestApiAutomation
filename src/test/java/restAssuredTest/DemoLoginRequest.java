@@ -12,16 +12,14 @@ import static io.restassured.RestAssured.given;
 public class DemoLoginRequest {
 
     HashMap<String, String> map = new HashMap<>();
-    String email;
-    String password;
+
 
     @BeforeTest
     public void prepareTestData() {
 
         map.put("email", "eve.holt@reqres.in");
-        email = map.get("email");
         map.put("password", "cityslicka");
-        password = map.get("password");
+
     }
 
     @Test
