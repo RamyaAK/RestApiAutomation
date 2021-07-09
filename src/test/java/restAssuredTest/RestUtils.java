@@ -4,36 +4,35 @@ import org.apache.commons.lang3.RandomStringUtils;
 
 public class RestUtils {
 
-    public static String getName(){
+    public static String getName() {
         String generatedString = RandomStringUtils.randomAlphabetic(1);
-        return("morpheus"+generatedString);
+        return ("morpheus" + generatedString);
     }
 
-    public static String getJob(){
+    public static String getJob() {
         String generatedString = RandomStringUtils.randomAlphabetic(1);
-        return("leader"+generatedString);
+        return ("leader" + generatedString);
     }
 
-    public static String getUpdatedName(){
+    public static String getUpdatedName() {
         String generatedString = RandomStringUtils.randomAlphabetic(1);
-        return("John"+generatedString);
+        return ("John" + generatedString);
     }
 
-    public static String getUpdatedJob(){
+    public static String getUpdatedJob() {
         String generatedString = RandomStringUtils.randomAlphabetic(1);
-        return("zion resident"+generatedString);
+        return ("zion resident" + generatedString);
     }
 
-    public static String getEmailId(){
+    public static String getEmailId() {
         String generatedString = RandomStringUtils.randomAlphabetic(1);
-        return("eve"+generatedString+".holt@reqres.in");
+        return ("eve" + generatedString + ".holt@reqres.in");
     }
 
-    public static String getPassword(){
+    public static String getPassword() {
         String generatedString = RandomStringUtils.randomAlphabetic(1);
-        return("pistol"+generatedString);
+        return ("pistol" + generatedString);
     }
-
 
 
 }

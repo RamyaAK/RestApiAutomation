@@ -40,9 +40,9 @@ public class DemoPUTRequest {
                 .extract().response();
 
         String jsonResponse = response.asString();
-        Assert.assertEquals(jsonResponse.contains("John"),true);
-        Assert.assertEquals(jsonResponse.contains("zion resident"),true);
-        Assert.assertNotNull("updatedAt","Did not create a resource");
+        Assert.assertEquals(jsonResponse.contains("John"), true);
+        Assert.assertEquals(jsonResponse.contains("zion resident"), true);
+        Assert.assertNotNull("updatedAt", "Did not create a resource");
 
     }
 }

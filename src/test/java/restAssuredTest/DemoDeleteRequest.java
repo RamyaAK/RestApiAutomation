@@ -7,7 +7,7 @@ import static io.restassured.RestAssured.given;
 public class DemoDeleteRequest {
 
     @Test
-    public void deleteRequestTest(){
+    public void deleteRequestTest() {
 
         given()
                 .when()

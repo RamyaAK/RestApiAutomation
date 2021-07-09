@@ -39,8 +39,8 @@ public class DemoPatchRequest {
                 .extract().response();
 
         String jsonResponse = response.asString();
-        Assert.assertEquals(jsonResponse.contains("John"),true);
-        Assert.assertNotNull("updatedAt","Did not create a resource");
+        Assert.assertEquals(jsonResponse.contains("John"), true);
+        Assert.assertNotNull("updatedAt", "Did not create a resource");
 
     }
 }

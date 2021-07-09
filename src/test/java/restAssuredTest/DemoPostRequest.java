@@ -39,9 +39,9 @@ public class DemoPostRequest {
                 .extract().response();
 
         String jsonResponse = response.asString();
-        Assert.assertEquals(jsonResponse.contains("morpheus"),true);
-        Assert.assertEquals(jsonResponse.contains("leader"),true);
-        Assert.assertNotNull("createdAt","Did not create a resource");
+        Assert.assertEquals(jsonResponse.contains("morpheus"), true);
+        Assert.assertEquals(jsonResponse.contains("leader"), true);
+        Assert.assertNotNull("createdAt", "Did not create a resource");
 
     }
 }
