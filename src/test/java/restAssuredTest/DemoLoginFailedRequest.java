@@ -36,7 +36,6 @@ public class DemoLoginFailedRequest {
         String stringAPIResponse = response.asString();
         System.out.println(stringAPIResponse);
 
-        Assert.assertNotNull(response.getBody().equals("token"));
         Assert.assertEquals(response.getBody().jsonPath().getString("error"), "Missing password");
 
 
