@@ -8,7 +8,7 @@ import static org.hamcrest.Matchers.hasItems;
 public class GetListOfResourcesRequest {
 
     @Test
-    public void getListOfResourcesTest(){
+    public void getListOfResourcesTest() {
         given()
                 .when()
                 .get("https://reqres.in/api/unknown")
@@ -16,6 +16,6 @@ public class GetListOfResourcesRequest {
                 .statusCode(200)
                 .statusLine("HTTP/1.1 200 OK")
                 .log().all()
-                .assertThat().body("data.name",hasItems("cerulean","fuchsia rose","true red","aqua sky","tigerlily","blue turquoise"));
+                .assertThat().body("data.name", hasItems("cerulean", "fuchsia rose", "true red", "aqua sky", "tigerlily", "blue turquoise"));
     }
 }

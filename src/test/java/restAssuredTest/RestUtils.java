@@ -23,4 +23,17 @@ public class RestUtils {
         String generatedString = RandomStringUtils.randomAlphabetic(1);
         return("zion resident"+generatedString);
     }
+
+    public static String getEmailId(){
+        String generatedString = RandomStringUtils.randomAlphabetic(1);
+        return("eve"+generatedString+".holt@reqres.in");
+    }
+
+    public static String getPassword(){
+        String generatedString = RandomStringUtils.randomAlphabetic(1);
+        return("pistol"+generatedString);
+    }
+
+
+
 }
