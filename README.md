@@ -1,2 +1,6 @@
 # RestApiAutomation
-All 4 API automation Scripts
+All 4 Basic HTTP API automation Scripts:
+GET
+POST
+PUT
+DELETE
